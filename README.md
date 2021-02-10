@@ -1,14 +1,12 @@
-# Project
+# Community Based Azure Landing Zone Review
+*Azure landing zones are the output of a multi subscription Azure environment that accounts for scale, security, governance, networking, and identity. Azure landing zones enable application migrations and the greenfield development at an enterprise scale in Azure. These zones consider all platform resources required to support the customer's application portfolio and don't differentiate between infrastructure as a service or platform as a service. Source [Microsoft Cloud Adoption Framework](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/)*
+\
+\
+The aim of this workbook is to visualise core components of an Azure Landing Zone with the focus on the core components. The workbook has no support or warranty from Microsoft. Microsoft is not obligated to provide any support services for this template. Any support provided is "as is" "with all faults" and without warranty of any kind.
+\
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
-
-As the maintainer of this project, please make a few updates:
-
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+The [LZReview](LZReview/readme.md) folder includes instructions how to import the workbook into your Azure environment.
+The [Resources](/resources) folder includes screenshots of the workbook.
 
 ## Contributing
 
