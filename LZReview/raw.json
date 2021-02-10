@@ -1,0 +1,34 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "type": "string",
+            "defaultValue": "my-workbook-template",
+            "metadata": {
+                "description": "The unique name for this workbook template instance"
+            }
+        }
+    },
+    "resources": [
+        {
+            "name": "[parameters('resourceName')]",
+            "type": "microsoft.insights/workbooktemplates",
+            "location": "[resourceGroup().location]",
+            "apiVersion": "2019-10-17-preview",
+            "dependsOn": [],
+            "properties": {
+                "galleries": [
+                    {
+                        "name": "A Workbook Template",
+                        "category": "Deployed Templates",
+                        "order": 100,
+                        "type": "workbook",
+                        "resourceType": "Azure Monitor"
+                    }
+                ],
+                "templateData": <PASTE-COPIED-WORKBOOK_TEMPLATE_HERE>
+            }
+        }
+    ]
+}
