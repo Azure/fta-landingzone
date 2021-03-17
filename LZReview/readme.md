@@ -38,6 +38,12 @@ You should now see the Workbook with the subscription auto-populated, and a numb
 
 ![workbook view](/resources/lz-overview.jpg "lz-overview")
 
+
+You can also use the deploy button:
+
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Ffta-landingzone%2Fmaster%2FLZReview%2FWorkbook%2Fdeploy.json)
+
+
 **Other tabs**:
 * Governance:
 ![Governance](/resources/lz-governance1.jpg "governance view")
